@@ -79,3 +79,18 @@ body {
 }
 
 /* QR Code */
+
+#qr-code {
+  display: flex;
+  opacity: 0;
+  border: 1px solid #ccc;
+  padding: 30px 0;
+  margin: 20px 15px;
+  justify-content: center;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.container.active #qr-code {
+  opacity: 1;
+}
