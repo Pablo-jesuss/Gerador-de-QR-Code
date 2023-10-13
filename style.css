@@ -40,3 +40,36 @@ body {
   font-size: 0.9rem;
 }
 
+/* form */
+
+#qr-form {
+  margin: 20px 15px;
+}
+
+#qr-form input,
+#qr-form button {
+  width: 100%;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+#qr-form input {
+  border: 1px solid #777;
+  padding: 10px 15px;
+}
+
+#qr-form button {
+  background-color: rgb(19, 19, 206);
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.4s;
+}
+
+#qr-form button:hover {
+  opacity: 1;
+}
