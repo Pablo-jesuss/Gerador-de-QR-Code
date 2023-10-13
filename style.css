@@ -24,6 +24,10 @@ body {
   transition: 0.2s;
 }
 
+.container.active {
+  height: 500px;
+}
+
 /* header */
 
 #qr-header {
@@ -73,3 +77,5 @@ body {
 #qr-form button:hover {
   opacity: 1;
 }
+
+/* QR Code */
