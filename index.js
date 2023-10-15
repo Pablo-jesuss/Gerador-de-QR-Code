@@ -16,6 +16,8 @@ function generaterQrCode() {
 
   qrCodeImg.addEventListener("load", () => {
     container.classList.add("active");
+
+    qrCodeBtn.innerText = "Código criado!";
   });
   
 }
