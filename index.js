@@ -6,6 +6,9 @@ const qrCodeInput = document.querySelector("#qr-form input");
 function generaterQrCode() {
   const qrCodeInputValue = qrCodeInput.value; 
   
+  if(!qrCodeInputValue) return;
+
+  qrCodeBtn.innerText = "Gerando código...";
 }
 
 qrCodeBtn.addEventListener("click", () => {
