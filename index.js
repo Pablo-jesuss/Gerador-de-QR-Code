@@ -11,7 +11,7 @@ function generaterQrCode() {
 
   qrCodeBtn.innerText = "Gerando código...";
 
-  qrCodeImg = src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrCodeInputValue} `;
+  qrCodeImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrCodeInputValue} `;
 
   container.classList.add("active");
 }
